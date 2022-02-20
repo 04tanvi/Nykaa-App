@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<title>Web Page Design</title>
+<head>
+  <title>website</title>
+  <style>
+    body{
+      background-image: url("https://cdn.pixabay.com/photo/2018/02/27/17/41/rose-3186089_1280.jpg");
+      background-repeat: no-repeat;
+    }
+    .Header{
+      margin-top:80px;
+      display: flex;
+      color:black;
+      height:100px;
+      padding:10px 80px 20px 60px;
+    }
+    .Header h1{
+      margin-left:-200px;
+      font-family: Calibri,SansSerif,serif;
+      font-size:32px;
+    }
+    img{
+      padding-left: 210px;
+      width:150px;
+      height:50px;
+      margin:1px 200px 100px 200px;
+    }
+
+    #footer{
+      text-align:center;
+      margin-top:10%;
+    }
+    li{
+      color:red;
+      text-decoration:none;
+      padding:0 10px;
+      display:block;
+    }
+    li a{
+      color: darkred;
+      text-decoration: none;
+      padding: 10px 20px;
+      display: block;
+    }
+    li a:hover{
+      background-color:black;
+      color:white;
+    }
+    .nav{
+      //background-color: lightgrey;
+      height: 50px;
+      position: relative;
+      padding-left:600px;
+
+    }
+    .nav-li{
+      height: 30px;
+      margin-top: 8px;
+      width: 150px;
+      margin-left:50px;
+
+    }
+    .nav button a{
+      text-decoration: none;
+      color:pink;
+    }
+    .nav button{
+      background-color:black;
+    }
+    .body-right{
+      float:right;
+      width:30%;
+      height:390px;
+      box-shadow: 0 2px 5px 0 rgba(0, 3, 1, 0.1);
+    }
+    .body-right marquee{
+      padding-left:10px;
+    }
+
+    .body-right marquee div{
+      font-family: Calibri,SansSerif,serif;
+      font-size:17px;
+    }
+    .body-mid{
+      width:40%;
+      height:400px;
+      float:left;
+    }
+
+    .body-left{
+      margin-top:-17px;
+      float:left;
+      width:30%;
+      height:400px;
+      list-style-type:none;
+      background-color:transparent;
+      font-size:18px;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+    }
+    .body-left ul li a{
+      padding-left:70px;
+      font-size:25px;
+    }
+    .body{
+      height:440px;
+    }
+
+    .footer{
+      height:40px;
+      color: whitesmoke;
+
+    }
+    .footer p{
+      padding-top:10px;
+      margin-left:450px;
+      color:black;
+      font-family: Calibri,SansSerif,serif;
+      font-size:17px;
+    }
+    iframe{
+      width:350px;
+      height: 320px;
+      border-color: green;
+      margin:50px 0 0 50px;
+      border-radius: 10px;
+    }
+   .product-button{
+     padding-left:100px;
+     margin-top:10px;
+     color:pink;
+     //width:80px;
+     height: 20px;
+     background-color:black;
+   }
+
+    .categories{
+      padding-left:120px;
+      margin-top:20px;
+      color:pink;
+      height: 20px;
+      background-color:black;
+    }
+    .product-button a {
+      text-decoration: none;
+      color:pink;
+      font-family: Calibri,SansSerif,serif;
+      font-size:17px;
+    }
+    h2{
+      padding-left:10px;
+    }
+  </style>
+</head>
+<body>
+<div class="body">
+  <div class ="Header">
+    <img src="https://cdn.freelogovectors.net/wp-content/uploads/2021/01/nykaa-logo-freelogovectors.net_.png" alt="">
+    <h1>Nykaa</h1>
+  </div>
+
+  <div class="body">
+    <div class="nav">
+      <button class="nav-li"><a href="product.html">Register</a></button>
+      <button class="nav-li"><a href="index.html">Login</a></button>
+    </div>
+    <div class="body-left">
+      <div class="categories">Categories</div>
+      <ul>
+        <li><a href="https://skinbeautysolutions.com/product-category/serums-and-creams/" target="frame1">Serums and Creams</a></li>
+        <li><a href="https://skinbeautysolutions.com/product-category/toners-and-cleansers/" target="frame1">Toners and cleansers</a></li>
+        <li><a href="https://skinbeautysolutions.com/product-category/oils-and-butters/" target="frame1">Oils and Butters</a></li>
+        <li><a href="https://skinbeautysolutions.com/product-category/chemical-skin-peels/" target="frame1">Chemical Skin Peels</a></li>
+        <li><a href="https://skinbeautysolutions.com/product-category/supplements/" target="frame1">Supplements</a></li>
+      </ul>
+    </div>
+
+    <div class="body-mid">
+      <iframe name="frame1"></iframe>
+    </div>
+
+    <div class="body-right">
+      <div class="product-button"><a href="product.html">Go to Product Page</a></div>
+      <h2>Announcement</h2>
+      <marquee width="100%" direction="down" height="300px" onmouseover="this.stop()" onmouseout="this.start()">
+        <div>50% discount on beauty product</div>
+        <div>30% discount on MackUp product</div>
+        <div>10% discount on beauty product</div>
+        <div>30% discount on Skin product</div>
+        <div>40% discount on Supplement product</div>
+        <div>70% discount on Health product</div>
+      </marquee>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <p>Copyright by Nykaa. All right are reserved</p>
+  </footer>
+
+</div>
+</body>
+</html>

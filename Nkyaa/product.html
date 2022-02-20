@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Course Registration</title>
+  <style>
+
+    body{
+      background-image: url("https://cdn.pixabay.com/photo/2018/02/27/17/41/rose-3186089_1280.jpg");
+      background-repeat: no-repeat;
+    }
+    .Header{
+      margin-top:80px;
+      display: flex;
+      color:black;
+      height:100px;
+      padding:10px 80px 20px 60px;
+    }
+    .Header h1{
+      margin-left:-200px;
+      font-family: Calibri,SansSerif,serif;
+      font-size:32px;
+    }
+    img{
+      padding-left: 210px;
+      width:150px;
+      height:50px;
+      margin:1px 200px 100px 200px;
+    }
+
+
+    li{
+      color:red;
+      text-decoration:none;
+      padding:10px 15px;
+      display:block;
+    }
+    li a{
+      color: darkred;
+      text-decoration: none;
+      padding: 10px 20px;
+      display: block;
+    }
+    li a:hover{
+      background-color:black;
+      color:white;
+    }
+
+    .nav button a{
+      text-decoration: none;
+      color:pink;
+    }
+    .nav button{
+      background-color:black;
+    }
+
+    #logo img{
+      border-radius: 360px;
+      height: 100px;
+      width: 100px;
+      margin-left: 420px;
+    }
+
+    #head02 {
+      font-size: 1.2em;
+      color: red;
+      margin: 15px auto;
+      border: 0.2px solid black;
+      border-radius: 5px;
+      padding: 6px;
+      width: 350px;
+      text-align: center;
+    }
+
+    .Buttons{
+      border: 0.2px solid black;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      padding: 10px;
+      width: 260px;
+      margin-left: 800px;
+    }
+
+    .submit-button{
+      margin-left: 1000px;
+      padding: 6px;
+      display:flex;
+
+    }
+    .submit-button button{
+      width: 160px;
+      height: 40px;
+      margin-left:10px;
+    }
+
+
+    #logo img{
+      border-radius: 360px;
+      height: 100px;
+      width: 115px;
+      margin: -15px 0 0 -30px;
+      padding-right: 20px;
+    }
+
+
+
+
+    footer{
+      box-shadow: 1px 2px 5px 3px rgba(0,0,0,0.16);
+      height: 55px;
+      margin-top:70px;
+    }
+    footer p{
+      padding: 6px;
+      margin-left: 41%;
+      font-size: 1em;
+    //border:solid black;
+      display: inline-block;
+      border-radius: 7px;
+      font-weight: bold;
+    }
+    button {
+      border-width: 1px;
+      border-color: white black black white;
+      border-style: solid;
+    }
+    button:active {
+      background-color: Green;
+    }
+
+
+   .img-product-banner{
+     padding-top:60px;
+     width: 60%;
+     float:left;
+     margin-left:-10%;
+   }
+   .img-product-banner img{
+     width:400px;
+     height:300px;
+   }
+  </style>
+</head>
+<body>
+<div id="container">
+
+  <div class ="Header">
+    <img src="https://cdn.freelogovectors.net/wp-content/uploads/2021/01/nykaa-logo-freelogovectors.net_.png" alt="">
+    <h1>Nykaa</h1>
+  </div>
+
+  <div id="head02">Product at Your Own Cost</div>
+<div class="body">
+<div class="img-product-banner">
+  <img src="https://media.istockphoto.com/photos/make-up-cosmetics-products-against-pink-color-background-picture-id1221677097?b=1&k=20&m=1221677097&s=170667a&w=0&h=F53wAlLL7Q8syWNmaJq7c5afMzOFOdPY5aPh1H3bcpM="  alt="img not load">
+</div>
+
+  <div class="second">
+    <div class="Buttons">Name: <input type="text" placeholder="Enter Your Good Name"></div>
+    <div class="Buttons">Product Search: <input type="text" placeholder="Search Here"></div>
+
+    <div class="Buttons">Reviews:
+      <lable for="1">⭐1</lable><input type="radio" id="1">
+      <lable for="2">⭐2</lable><input type="radio" class="2">
+      <lable for="3">⭐3</lable><input type="radio" class="2">
+
+    </div>
+
+    <div class="Buttons">Latest Notification: <input type="checkbox"></div>
+
+    <div class="Buttons"><select name="Specification" size="3">
+      <option > Hair Care Product </option>
+      <option > MakeUp Essentials</option>
+      <option > Personal Care</option>
+    </select></div>
+
+    <div class="Buttons">Choose Your Brand: <select Name="MakeUp Collection" >
+      <option> Lakme</option>
+      <option> Maybelline</option>
+      <option> Good Vibes </option>
+      <option> NY Bae</option>
+    </select> </div>
+
+
+    <div class="submit-button">
+      <button type="reset">Reset Button</button>
+      <button type="submit">Submit</button>
+    </div>
+
+  </div>
+  </div>
+  <footer>
+    <p>©️Copyright by Nykaa</p>
+  </footer>
+</div>
+</body>
+</html>
